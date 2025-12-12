@@ -9,15 +9,15 @@ The goal is to boop the snoot.
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More
+## Project Tasks
+
+- [x] Add `.prettierrc` and `LICENCE` file
+- [x] Format all used files to use style guide
+- [ ] Remove boilerplate content
+- [ ] Add _Hello, World!_
+- [ ] _Fill out_ the `package.json` file.
