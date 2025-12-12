@@ -116,7 +116,7 @@ export default function Home() {
     }, [gameStarted, isVisible, hideDog, showDog])
 
     return (
-        <main className="min-h-screen bg-linear-to-b from-blue-400 to-purple-500 relative overflow-hidden touch-none select-none">
+        <main className="min-h-screen bg-gradient-to-b from-blue-400 to-purple-500 relative overflow-hidden touch-none select-none">
             {/* Score Display Header */}
             <div className="absolute top-0 left-0 right-0 p-4 bg-black/20 backdrop-blur-sm z-10">
                 <div className="max-w-md mx-auto flex justify-between items-center text-white">
@@ -177,7 +177,7 @@ export default function Home() {
                     )}
 
                     {/* End Game Button */}
-                    <div className="fixed bottom-6 left-0 right-0 flex justify-center z-20 pb-safe">
+                    <div className="fixed bottom-6 left-0 right-0 flex justify-center z-20 pb-6">
                         <button
                             onClick={endGame}
                             className="bg-white/90 text-purple-600 px-6 py-3 rounded-full font-bold shadow-lg hover:scale-105 active:scale-95 transition-transform"
