@@ -177,7 +177,7 @@ export default function Home() {
                     )}
 
                     {/* End Game Button */}
-                    <div className="absolute bottom-4 left-0 right-0 flex justify-center">
+                    <div className="fixed bottom-6 left-0 right-0 flex justify-center z-20 pb-safe">
                         <button
                             onClick={endGame}
                             className="bg-white/90 text-purple-600 px-6 py-3 rounded-full font-bold shadow-lg hover:scale-105 active:scale-95 transition-transform"
