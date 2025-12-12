@@ -2,6 +2,15 @@
     "name": "boop",
     "version": "0.1.0",
     "private": true,
+    "author": {
+        "name": "Alexander A. Guerra",
+        "email": "alexander.a.guerra@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alexguerra-dev/boop.git"
+    },
     "scripts": {
         "dev": "next dev",
         "build": "next build",
