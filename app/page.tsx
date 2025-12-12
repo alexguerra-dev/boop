@@ -165,7 +165,7 @@ export default function Home() {
                         >
                             <div className="w-32 h-32 rounded-full overflow-hidden shadow-2xl hover:scale-110 active:scale-90 transition-transform">
                                 <Image
-                                    src="/images/ada.jpeg"
+                                    src="/images/ada_transparent.png"
                                     alt="Ada the dog"
                                     width={128}
                                     height={128}
